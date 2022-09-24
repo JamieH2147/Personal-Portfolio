@@ -125,7 +125,7 @@ a {
 
 #nav-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 1.5rem 5vw;
   height: 8vh;
@@ -134,21 +134,6 @@ a {
   top: 0;
   left: 0;
   background-color:#457b9d2d;
-  
-
-}
-
-#nav-bar #logo {
-font-size: 2.2rem;
-letter-spacing: 0.2rem;
-padding-right: 10px;
-
-}
-
-#nav-bar #logo h2 {
-  color: #f1faee;
-  font-family:'Ubuntu', open-sans;
-  font-style: oblique;
 }
 
 #nav-links {
@@ -262,8 +247,8 @@ padding-right: 10px;
 }
 
 #about-section #about-info p {
-  font-size: 2rem;
-  line-height: 1.8;
+  font-size: 1.6rem;
+  line-height: 1.6;
   font-weight: 500;
   letter-spacing: 0.1rem;
 }
