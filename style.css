@@ -91,10 +91,6 @@ a {
   font-weight: 400;
 }
 
-.project-tech {
-  font-size: 1.2rem;
-}
-
 .project-links {
   display: flex;
   justify-content: space-evenly;
@@ -267,7 +263,7 @@ a {
 
 #about-section #technical-skills li {
 font-size: 3rem;
-padding: 1rem 1.5rem;
+padding: 1.5rem 1.5rem;
 color: #f1faee;
 display: inline-block;
 background-color: #457b9d48;
@@ -322,6 +318,19 @@ background-color: #457b9d48;
   width: 100%;
   flex-basis: 40%;
   background-color: aqua;
+}
+
+.project-tech {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-tech li {
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: #457b9d48;
+  
 }
 
 /* PROJECTS SECTION STYLING END */
