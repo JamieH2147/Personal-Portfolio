@@ -262,11 +262,17 @@ a {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 #about-section #technical-skills li {
-font-size: 1.5rem;
+font-size: 3rem;
 padding: 1rem 1.5rem;
+color: #f1faee;
+display: inline-block;
+background-color: #457b9d48;
+
+
 }
 
 
