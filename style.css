@@ -71,42 +71,6 @@ a {
 }
 
 
-.image {
-  width: 100%;
-  flex-basis: 50%;
-  background-color: aqua;
-}
-.project-title {
-
-  font-size: 2.5rem;
-  letter-spacing: 0.25rem;
-  font-weight: bolder;
-}
-
-.project-description {
-  font-size: 1.2rem;
-  line-height: 1.4;
-  text-align: center;
-  letter-spacing: 0.1rem;
-  font-weight: 400;
-}
-
-.project-links {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.project-links a {
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
-  padding: 1rem 2rem;
-  border: 1px solid #1d3557;
-}
-
-.project-links a:hover {
-  background-color:#1d3557;
-  color: #e63946;
-}
 /* HERO STYLING START */
 
 #header {
@@ -316,8 +280,20 @@ background-color: #457b9d48;
 
 #projects-container .project .image {
   width: 100%;
-  flex-basis: 40%;
+  flex-basis: 50%;
   background-color: aqua;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+  font-weight: bolder;
+}
+
+.project-description {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  letter-spacing: 0.1rem;
 }
 
 .project-tech {
@@ -330,7 +306,23 @@ background-color: #457b9d48;
   font-size: 1.2rem;
   padding: 1rem;
   background-color: #457b9d48;
-  
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-links a {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem 2rem;
+  border: 1px solid #1d3557;
+}
+
+.project-links a:hover {
+  background-color:#1d3557;
+  color: #e63946;
 }
 
 /* PROJECTS SECTION STYLING END */
@@ -350,7 +342,7 @@ background-color: #457b9d48;
 
 }
 
-#contact-section #contact-info {
+#contact-section #contact-form {
   width: 50%;
   text-align: left;
   background-color: #457b9d58;
@@ -360,7 +352,7 @@ background-color: #457b9d48;
   box-shadow: 5px 5px #457b9d;
 }
 
-#contact-section #contact-info h3 {
+#contact-section #contact-form h3 {
   font-size: 5rem;
   letter-spacing: 0.35rem;
   margin-bottom: 3rem;
@@ -368,7 +360,7 @@ background-color: #457b9d48;
 }
 
 
-#contact-section #contact-info p {
+#contact-section #contact-form p {
   font-size: 1.6rem;
   line-height: 1.6;
   font-weight: 500;
@@ -381,7 +373,7 @@ background-color: #457b9d48;
   gap: 1.5rem;
 }
 
-#contact-section #contact-info input {
+#contact-section #contact-form input {
   width: 100%;
   padding: 1.5rem;
   margin-bottom: 1rem;
@@ -393,7 +385,7 @@ background-color: #457b9d48;
   
 }
 
-#contact-section #contact-info textarea {
+#contact-section #contact-form textarea {
   width: 100%;
   height: 12rem;
   padding: 1.5rem;
@@ -407,11 +399,11 @@ background-color: #457b9d48;
   
 }
 
-#contact-section #contact-info input:focus, textarea:focus {
+#contact-section #contact-form input:focus, textarea:focus {
   outline: none;
 }
 
-#contact-section #contact-info input::placeholder, textarea::placeholder {
+#contact-section #contact-form input::placeholder, textarea::placeholder {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.1rem;
   color: #457b9d;
@@ -494,6 +486,10 @@ html {
   font-size: 1.6rem;
 }
 
+#contact-section #contact-form {
+  width: 70%;
+}
+
 #contact-section #contact-info {
   width: 80%;
   
@@ -501,7 +497,8 @@ html {
 
 #contact-section #contact-info h3 {
   margin-bottom: 5rem;
-  font-size: 7rem;
+  font-size: 5rem;
+  
 }
 
 #contact-section #contact-info p {
@@ -514,10 +511,91 @@ html {
 
 }
 
+}
+
 /* TABLET VIEW STYLING END */
 
+/* MOBILE VIEW STYLING START */
 
+@media screen and (max-width: 639px) {
 
+  html {
+    font-size: 6px;
+  }
 
+  #about-section {
+    height: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+  }
 
+  #about-section article {
+    width: 100%;
+  }
+
+  #projects-section {
+    height: auto;
+    /* padding: 10vw/; */
+  }
+
+  #projects-section #projects-container {
+    flex-wrap: wrap;
+    
+  }
+
+  #projects-section .project {
+    width: 100%;
+    margin-bottom: 5vh;
+  }
+
+  #projects-section .project h4 {
+    font-size: 2.5rem;
+  }
+
+  #projects-section .project p, i, .project-links {
+    font-size: 1.5rem;
+  }
+
+  #contact-section #contact-form {
+    width: 70%;
+  }
+  
+  #contact-section #contact-info {
+    width: 80%;
+    
+  }
+  
+  #contact-section #contact-info h3 {
+    margin-bottom: 5rem;
+    font-size: 5rem;
+    
+  }
+  
+  #contact-section #contact-info p {
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+  }
+  
+  #contact-section #contact-info input {
+    margin-bottom: 1rem;
+  
+  }
+
+  #header #nav-bar #nav-links li a {
+    display: none;
+  }
+
+  #header #nav-bar #nav-links li #hamburger {
+    display:inline-flex;
+    
+  }
+  }
+  
+
+}
+
+/* MOBILE VIEW STYLING END */
 

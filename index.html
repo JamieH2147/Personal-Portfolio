@@ -1,180 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jamie Hopwood | Portfolio</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&family=Ubuntu:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-</head>
-<body>
-  
-  <!-- HEADER START -->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamie Hopwood | Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&family=Ubuntu:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <!-- HEADER START -->
 
-  <header id="header">
+    <header id="header">
 
-    <!-- Navigation Bar -->
+      <!-- Navigation Bar -->
 
-    <nav id="nav-bar">
+      <nav id="nav-bar">
 
-      <!-- Nav Links -->
+        <ul id="nav-links">
+          <li><a href=#header>Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#projects-section">Projects</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+          <li ><a id="hamburger" href="#"><i class="fa-solid fa-bars fa-xl"></i></a></li>
+        </ul>
 
-      <ul id="nav-links">
-        <li><a href=#header>Home</a></li>
-        <li><a href="#about-section">About</a></li>
-        <li><a href="#projects-section">Projects</a></li>
-        <li><a href="#contact-section">Contact</a></li>
-        <li id="hamburger"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-      </ul>
+      </nav>
 
-    </nav>
+      <!-- Header Information section -->
 
-    <!-- Hero Information section -->
+      <section id="hero-main">
 
-    <section id="hero-main">
+        <article class="hero-info">
+          <h1>Hi,<br>
+            I'm <span class="highlight">Jamie</span>
+          </h1>
+          <p>Front End Developer</p>
+          <div class="buttons">
+            <a href="#about-section" class="btn">About Me</a>
+            <a href="#projects-section" class="btn">Projects</a>
+          </div>
+        </article>
 
-      <article class="hero-info">
-        <h1>Hi,<br>
-           I'm <span class="highlight">Jamie</span>
-        </h1>
-        <p>Front End Developer</p>
-        <div class="buttons">
-          <a href="#about-section" class="btn">About Me</a>
-          <a href="#projects-section" class="btn">Projects</a>
-        </div>
+      </section>
+
+    </header>
+
+    <!-- HEADER END -->
+
+    <!-- ABOUT SECTION START -->
+
+    <section id="about-section">
+
+      <!-- About Me Section -->
+
+      <article id="about-info">
+        <h3>A Bit <span class="underline">About</span> Me</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione odit animi, quidem tenetur a vitae corporis. Dolor qui optio nam laboriosam. Similique a quasi delectus possimus, distinctio sunt mollitia! Beatae facilis delectus voluptatum tempore sint ea iste omnis, non quis ut voluptatem facere et rerum numquam a? Porro ullam culpa natus quas consectetur, quisquam molestiae sed quos saepe, quam dolorem vitae doloremque vero repellat voluptatum. Ea velit ut, ratione animi deserunt labore aliquam eveniet veritatis iure illum blanditiis nisi voluptatem corporis corrupti sunt, fuga dolores! Libero vitae, harum animi iure suscipit, sit cumque minima adipisci autem, aliquid porro tenetur omnis.</p>
+      </article>
+
+      <!-- Technical Skills Section -->
+
+      <article id="technical-skills">
+        <h3>Technical <span class="underline">Skills</span></h3>
+        <ul id="skills-list">
+          <li><i class="fa-brands fa-html5"></i></li>
+          <li><i class="fa-brands fa-css3-alt"></i></li>
+          <li><i class="fa-brands fa-bootstrap"></i></li>
+          <li><i class="fa-brands fa-js"></i></li>
+          <li><i class="fa-brands fa-react"></i></li>
+          <li><i class="fa-brands fa-git-alt"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+        </ul>
       </article>
 
     </section>
 
-  </header>
+    <!-- ABOUT SECTION END -->
 
-  <!-- HEADER END -->
+    <!-- PROJECTS SECTION START -->
 
-   <!-- ABOUT SECTION START -->
+    <section id="projects-section">
 
-  <section id="about-section">
+      <!-- Projects Section Title -->
 
-    <article id="about-info">
-      <h3>A Bit <span class="underline">About</span> Me</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione odit animi, quidem tenetur a vitae corporis. Dolor qui optio nam laboriosam. Similique a quasi delectus possimus, distinctio sunt mollitia! Beatae facilis delectus voluptatum tempore sint ea iste omnis, non quis ut voluptatem facere et rerum numquam a? Porro ullam culpa natus quas consectetur, quisquam molestiae sed quos saepe, quam dolorem vitae doloremque vero repellat voluptatum. Ea velit ut, ratione animi deserunt labore aliquam eveniet veritatis iure illum blanditiis nisi voluptatem corporis corrupti sunt, fuga dolores! Libero vitae, harum animi iure suscipit, sit cumque minima adipisci autem, aliquid porro tenetur omnis.</p>
-    </article>
+      <h3>Recent <span class="underline">Projects</span></h3>
 
-    <article id="technical-skills">
-      <h3>Technical <span class="underline">Skills</span></h3>
-      <ul id="skills-list">
-        <li><i class="fa-brands fa-html5"></i></li>
-        <li><i class="fa-brands fa-css3-alt"></i></li>
-        <li><i class="fa-brands fa-bootstrap"></i></li>
-        <li><i class="fa-brands fa-js"></i></li>
-        <li><i class="fa-brands fa-react"></i></li>
-        <li><i class="fa-brands fa-git-alt"></i></li>
-        <li><i class="fa-brands fa-github"></i></li>
-      </ul>
-    </article>
+      <section id="projects-container">
 
-  </section>
+        <!-- Project Cards -->
 
-  <!-- ABOUT SECTION END -->
+        <article class="project">
+          <div class="image"></div>
+          <h4 class="project-title ">Project Name</h4>
+          <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta minus iusto incidunt, molestias dolore laudantium quae placeat nam velit debitis minima ratione sit eum sequi ex? At nemo possimus quam quisquam, in et magni aperiam inventore molestiae expedita numquam ad. Fugiat ullam fugit nostrum nam inventore maxime minus dignissimos quia?</p>
+          <ul class="project-tech">
+            <li><i class="fa-brands fa-html5"></i></li>
+            <li><i class="fa-brands fa-css3-alt"></i></li>
+            <li><i class="fa-brands fa-js"></i></li>
+            <li><i class="fa-brands fa-react"></i></li>
+          </ul>
+          <div class="project-links">
+            <a href="#">Live Demo</a>
+            <a href="#">Source Code</a>
+          </div>
+        </article>
 
-  <!-- PROJECTS SECTION START -->
+        <article class="project">
+          <div class="image"></div>
+          <h4 class="project-title">Project Name</h4>
+          <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta minus iusto incidunt, molestias dolore laudantium quae placeat nam velit debitis minima ratione sit eum sequi ex? At nemo possimus quam quisquam, in et magni aperiam inventore molestiae expedita numquam ad. Fugiat ullam fugit nostrum nam inventore maxime minus dignissimos quia?</p>
+          <ul class="project-tech">
+            <li><i class="fa-brands fa-html5"></i></li>
+            <li><i class="fa-brands fa-css3-alt"></i></li>
+            <li><i class="fa-brands fa-js"></i></li>
+            <li><i class="fa-brands fa-react"></i></li>
+          </ul>
+          <div class="project-links">
+            <a href="#">Live Demo</a>
+            <a href="#">Source Code</a>
+          </div>
+        </article>
+        
+        <article class="project">
+          <div class="image"></div>
+          <h4 class="project-title">Project Name</h4>
+          <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta minus iusto incidunt, molestias dolore laudantium quae placeat nam velit debitis minima ratione sit eum sequi ex? At nemo possimus quam quisquam, in et magni aperiam inventore molestiae expedita numquam ad. Fugiat ullam fugit nostrum nam inventore maxime minus dignissimos quia?</p>
+          <ul class="project-tech">
+            <li><i class="fa-brands fa-html5"></i></li>
+            <li><i class="fa-brands fa-css3-alt"></i></li>
+            <li><i class="fa-brands fa-js"></i></li>
+            <li><i class="fa-brands fa-react"></i></li>
+          </ul>
+          <div class="project-links">
+            <a href="#">Live Demo</a>
+            <a href="#">Source Code</a>
+          </div>
+        </article>
+        
+        
+      </section>
 
-  <section id="projects-section">
-
-    <h3>Recent <span class="underline">Projects</span></h3>
-
-
-    <section id="projects-container">
-
-      <article class="project">
-        <div class="image"></div>
-        <h4 class="project-title ">Project Name</h4>
-        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta minus iusto incidunt, molestias dolore laudantium quae placeat nam velit debitis minima ratione sit eum sequi ex? At nemo possimus quam quisquam, in et magni aperiam inventore molestiae expedita numquam ad. Fugiat ullam fugit nostrum nam inventore maxime minus dignissimos quia?</p>
-        <ul class="project-tech">
-          <li><i class="fa-brands fa-html5"></i></li>
-          <li><i class="fa-brands fa-css3-alt"></i></li>
-          <li><i class="fa-brands fa-js"></i></li>
-          <li><i class="fa-brands fa-react"></i></li>
-        </ul>
-        <div class="project-links">
-          <a href="#">Live Demo</a>
-          <a href="#">Source Code</a>
-        </div>
-      </article>
-
-      <article class="project">
-        <div class="image"></div>
-        <h4 class="project-title">Project Name</h4>
-        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta minus iusto incidunt, molestias dolore laudantium quae placeat nam velit debitis minima ratione sit eum sequi ex? At nemo possimus quam quisquam, in et magni aperiam inventore molestiae expedita numquam ad. Fugiat ullam fugit nostrum nam inventore maxime minus dignissimos quia?</p>
-        <ul class="project-tech">
-          <li><i class="fa-brands fa-html5"></i></li>
-          <li><i class="fa-brands fa-css3-alt"></i></li>
-          <li><i class="fa-brands fa-js"></i></li>
-          <li><i class="fa-brands fa-react"></i></li>
-        </ul>
-        <div class="project-links">
-          <a href="#">Live Demo</a>
-          <a href="#">Source Code</a>
-        </div>
-      </article>
-      
-      <article class="project">
-        <div class="image"></div>
-        <h4 class="project-title">Project Name</h4>
-        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta minus iusto incidunt, molestias dolore laudantium quae placeat nam velit debitis minima ratione sit eum sequi ex? At nemo possimus quam quisquam, in et magni aperiam inventore molestiae expedita numquam ad. Fugiat ullam fugit nostrum nam inventore maxime minus dignissimos quia?</p>
-        <ul class="project-tech">
-          <li><i class="fa-brands fa-html5"></i></li>
-          <li><i class="fa-brands fa-css3-alt"></i></li>
-          <li><i class="fa-brands fa-js"></i></li>
-          <li><i class="fa-brands fa-react"></i></li>
-        </ul>
-        <div class="project-links">
-          <a href="#">Live Demo</a>
-          <a href="#">Source Code</a>
-        </div>
-      </article>
-      
-      
     </section>
 
-  </section>
+    <!-- PROJECTS SECTION END -->
 
-  <!-- PROJECTS SECTION END -->
+    <!-- CONTACT SECTION START -->
 
-  <!-- CONTACT SECTION START -->
+    <section id="contact-section">
 
-  <section id="contact-section">
+      <!-- Contact Form Wrapper -->
 
-    <article id="contact-info">
+      <article id="contact-form">
 
-      <h3><span class="underline">Contact</span> Me</h3>
-      <p>Feel free to drop me a message in regards to any potential work opportunities, or if you have any questions in general. I will respond to any enquiries <span class="highlight">ASAP</span>. </p>
+        <!-- Contact Form Heading and Description -->
 
-      <form action="#">
-        <div id="inline-input"> 
-          <input type="text" name="name" placeholder="Name" required>
-          <input type="email" name="email" placeholder="Email" required>
-        </div> 
-        <input type="text" name="subject" placeholder="Subject" required>
-        <textarea name="message" placeholder="Message" required ></textarea>
-        <button id="form-submit" type="submit">Send a Message</button>
-        <div id="link-container">
-          <a href="https://uk.linkedin.com/in/jamie-hopwood-a9a81724b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://github.com/JamieH2147" target="_blank"><i class="fa-brands fa-github"></i></a>
-        </div>
-      </form>
+        <h3><span class="underline">Contact</span> Me</h3>
+        <p>Feel free to drop me a message in regards to any potential work opportunities, or if you have any questions in general. I will respond to any enquiries <span class="highlight">ASAP</span>. </p>
 
+        <!-- Contact Form -->
 
-    </article>
+        <form action="#">
+          <div id="inline-input"> 
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+          </div> 
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" placeholder="Message" required ></textarea>
+          <button id="form-submit" type="submit">Send a Message</button>
+          <div id="link-container">
 
-  </section>
+            <!-- Social Link -->
 
-  <!-- CONTACT SECTION END -->
-
-   
+            <a href="https://uk.linkedin.com/in/jamie-hopwood-a9a81724b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/JamieH2147" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </form>
 
 
+      </article>
 
-</body>
+    </section>
+
+    <!-- CONTACT SECTION END -->
+
+  </body>
 </html>
